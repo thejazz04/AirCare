@@ -1,17 +1,17 @@
-# 🌿 AirCare Monitor — Smart Environmental Health Monitoring System
+# AirCare Monitor - Smart Environmental Health Monitoring System
 
 An end-to-end IoT and real-time environmental monitoring platform that tracks indoor air quality, ambient temperature, and humidity levels. Equipped with an Express & Socket.IO backend and a modern React dashboard, it processes real-time telemetry from IoT microcontrollers (e.g., ESP8266 / ESP32) and visualizes actionable health insights.
 
 ---
 
-## ✨ Features
+## Features
 
-- **⚡ Real-Time Data Streaming**: Instant updates powered by WebSockets (Socket.IO) whenever new sensor telemetry is received.
-- **📊 Interactive Analytics & Trends**: Dynamic area charts (powered by Recharts) depicting the last 20 readings for Air Quality Index (AQI), Temperature (°C), and Humidity (%).
-- **🚨 Intelligent Health Alerts & Recommendations**: Automatic classification of environmental health status (`SAFE`, `MODERATE`, `CRITICAL` / `POOR`) with context-aware recommendations (e.g., ventilation triggers, cooling alerts).
-- **📋 Live Telemetry Log**: Chronological records of recent sensor readings, complete with timestamps and color-coded status badges.
-- **📱 Clean, Modern Dashboard**: Responsive UI crafted with React 19, Tailwind CSS v4, and Lucide React icons.
-- **🔌 Hardware-Agnostic Ingestion**: Simple HTTP REST endpoint (`POST /sensor-data`) compatible with ESP8266, ESP32, Arduino WiFi, Raspberry Pi, or simulated telemetry scripts.
+- ** Real-Time Data Streaming**: Instant updates powered by WebSockets (Socket.IO) whenever new sensor telemetry is received.
+- ** Interactive Analytics & Trends**: Dynamic area charts (powered by Recharts) depicting the last 20 readings for Air Quality Index (AQI), Temperature (°C), and Humidity (%).
+- ** Intelligent Health Alerts & Recommendations**: Automatic classification of environmental health status (`SAFE`, `MODERATE`, `CRITICAL` / `POOR`) with context-aware recommendations (e.g., ventilation triggers, cooling alerts).
+- ** Live Telemetry Log**: Chronological records of recent sensor readings, complete with timestamps and color-coded status badges.
+- ** Clean, Modern Dashboard**: Responsive UI crafted with React 19, Tailwind CSS v4, and Lucide React icons.
+- ** Hardware-Agnostic Ingestion**: Simple HTTP REST endpoint (`POST /sensor-data`) compatible with ESP8266, ESP32, Arduino WiFi, Raspberry Pi, or simulated telemetry scripts.
 
 ---
 
