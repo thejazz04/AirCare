@@ -1,4 +1,4 @@
-# AirCare Monitor - Smart Environmental Health Monitoring System
+# 🌿 AirCare Monitor - Smart Environmental Health Monitoring System
 
 An end-to-end IoT and real-time environmental monitoring platform that tracks indoor air quality, ambient temperature, and humidity levels. Equipped with an Express & Socket.IO backend and a modern React dashboard, it processes real-time telemetry from IoT microcontrollers (e.g., ESP8266 / ESP32) and visualizes actionable health insights.
 
